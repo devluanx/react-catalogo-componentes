@@ -7,6 +7,7 @@ function CardCurso(props){
         <p>Duração:{props.duracao}</p>
         <p>Modalidade:{props.modalidade}</p>
         <p>Nível:{props.nivel}</p>
+        <h3>Vagas: {props.vagas}</h3>
         </div>
         </>
     )

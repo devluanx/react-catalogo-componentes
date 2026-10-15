@@ -31,6 +31,12 @@ const cursos = [
     duracao: "900 horas",
     modalidade: "EAD",
     nivel: "Técnico"
+  },
+  {
+    nome:"Desenvolvimento Mobile",
+    duracao:"670 horas",
+    modalidade: "EAD",
+    nivel:"Técnico"
   }
 ];
 
