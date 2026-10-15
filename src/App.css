@@ -44,7 +44,6 @@ body {
   color: #061d42;
 }
 
-/* CABEÇALHO */
 
 .cabecalho {
   position: relative;
@@ -105,7 +104,6 @@ body {
   line-height: 1.9;
 }
 
-/* CATÁLOGO */
 
 .listaCursos {
   width: min(1240px, 92%);
@@ -117,7 +115,6 @@ body {
   align-items: stretch;
 }
 
-/* CARDS DOS CURSOS */
 
 .cards {
   position: relative;
@@ -228,7 +225,6 @@ body {
   margin-bottom: 0;
 }
 
-/* STATUS DAS VAGAS */
 
 .cards h3 {
   display: inline-flex;
@@ -255,13 +251,11 @@ body {
   box-shadow: 0 0 0 3px #d9f4d3;
 }
 
-/* TURMA COMPLETA */
 
 .cards:has(h3):has(h3) {
   min-height: 100%;
 }
 
-/* DESTAQUES DOS CURSOS */
 
 .destaque {
   position: relative;
@@ -304,7 +298,6 @@ body {
   overflow-wrap: anywhere;
 }
 
-/* ANIMAÇÕES */
 
 @keyframes entrada {
   from {
@@ -318,7 +311,6 @@ body {
   }
 }
 
-/* TABLETS */
 
 @media (max-width: 1000px) {
   .listaCursos {
@@ -336,7 +328,6 @@ body {
   }
 }
 
-/* CELULARES */
 
 @media (max-width: 620px) {
   .cabecalho {
@@ -379,7 +370,6 @@ body {
   }
 }
 
-/* ACESSIBILIDADE */
 
 @media (prefers-reduced-motion: reduce) {
   *,
