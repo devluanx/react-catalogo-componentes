@@ -1,6 +1,7 @@
 import Cabecalho from "./components/Cabecalho";
 import CardCurso from "./components/CardCurso";
 import Destaque from "./components/Destaque";
+import Rodape from "./components/Rodape";
 import "./App.css"
 
 const cursos = [
@@ -73,6 +74,12 @@ titulo="Programação Web" descricao="Desenvolva WebSites"/>
 titulo="Banco de Dados" descricao="Aprenda oque é Banco de Dados, SGBD´s entre outras diversas coisas"/>
 <Destaque
 titulo="Manutenção de Computadores" descricao="Aprenda a consertar o seu próprio computador"/>
+<Destaque
+  titulo="Manutenção de Computadores"
+  descricao="Aprenda a consertar o seu próprio computador"
+/>
+
+<Rodape />
 </>
 
   )
